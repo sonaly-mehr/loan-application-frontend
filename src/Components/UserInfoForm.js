@@ -23,7 +23,7 @@ const UserInfoForm = () => {
 
     axios({
       method: "post",
-      url: "http://localhost:4000/api/user/details",
+      url: "https://blooming-thicket-69005.herokuapp.com/api/user/details",
       data: userData,
       headers: { "Content-Type": "application/json" },
     })

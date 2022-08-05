@@ -23,7 +23,7 @@ const BusinessInfoForm = () => {
 
     axios({
       method: "post",
-      url: "http://localhost:4000/api/business/details",
+      url: "https://blooming-thicket-69005.herokuapp.com/api/business/details",
       data: businessData,
       headers: { "Content-Type": "application/json" },
     })

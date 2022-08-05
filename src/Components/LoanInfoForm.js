@@ -21,7 +21,7 @@ const LoanInfoForm = () => {
 
     axios({
       method: "post",
-      url: "http://localhost:4000/api/loan/details",
+      url: "https://blooming-thicket-69005.herokuapp.com/api/loan/details",
       data: LoanData,
       headers: { "Content-Type": "application/json" },
     })
